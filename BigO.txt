@@ -1,0 +1,24 @@
+﻿Algorithm 1
+O(1) or Constant time
+The item we are searching for will be the first or last element in the list
+Best case: O (1) 
+Worst case: O(1) 
+
+
+Algorithm 2
+The item we are searching for could be anywhere within the list
+Best case: O (1) first item checked
+Worst case: O(n) or linear
+
+O(1) or constant time
+O(log(n)) or logarithmic time
+O(n) or linear time
+O(n2) or exponential time
+O(n!) or factorial time
+
+
+---Linear Search---
+no assumption - O(n) time
+
+---Binear Search / Divide and Conquer---
+sorted assumption - O(log(n)) time
