@@ -1,0 +1,142 @@
+1-Explain difference between .NET and C#?
+
+.NET > FRAMEWORK 
+.NET HAS > COllection of libraries () (dynamic link library // dll)
+.NET HAS > Runtimes
+
+C# > Programming Languages
+C# > Semantic, syntax etc.
+
+2- WHAT IS IL (Intermediate Language) CODE ?
+C# > IL (Partially run) > JIT ( Just in time complied) > Machine Language
+
+IL code is a partially compiled code.
+JIT compiled IL code to Machine language.
+
+3- IS It possible to SEE IL Code ?
+YES > IL DASM
+YES > ILSPY
+
+4- Does .NET support multiple programming languages ?
+C# VB.NET F# C++.NET 
+Not matter every programming languages suddenly will be converted IL Code and after JIT > ML
+
+5- Explain CLR ? ( Common Language Runtime)
+CLR invokes JIT to compile to IL code.
+Cleans any unused objects by using GC.
+
+6-Managed vs Unmanaged code ?
+Managed code executed under control of CLR
+Unmanaged executed outside control of CLR
+
+7-Explain the importance of Garbage collector ?
+GC > Cleans unused managed resources
+GC cannot manage other languages ( unmanaged objects )
+
+C# is CASE Sensitive
+
+8- STACK AND HEAP Explain ?
+STACK and HEAP are memory types in an application.
+
+STACK > primitive data dtypes get allocated on the stack( Integer, boolean, double, decimal, string etc.)
+HEAP > stores STRING and OBJECTS
+
+
+9-Value types and Reference types ?
+Value types contain actual data 
+Reference types contain pointers and pointers point to the actual data
+
+Value types are stored on stack
+Reference types are stored on heap
+
+Value types are your normal data types int, bool, double 
+Ref types are all objects.
+
+10-Boxing and Unboxing
+int = 10 ;
+object y = i; Boxing value type to a reference
+int z = int (y); // Unboxing ref == > value type
+
+Summarization of Boxing and Unboxing PROS
+Performance
+
+11- Explain Casting ?
+int i=10;
+double d = i; // casting ( implicit casting higher data type)
+Implicit casting >  lower to Higher data type 
+Explicit casting > higher to lower data type ( we may have data loss, we need to know that condition.)
+double d1=100.23;
+int y=(int)d1; // explicit casting, system warns us about this conversion 
+
+12- Array Vs ArrayList?
+Array > fixed length size
+Array > Strongly Types 
+Performance > Better than Array List
+
+ArrayList
+Flexible length size
+No strongly typed
+Performance lower than array because of boxing and unboxing
+
+13- What are generic collections ?
+
+Generic collection takes all good things from array and arraylist
+
+So
+Generic > Strongly typed
+Generic > Flexible ( no fix size)
+
+List<int> geneint = new List <int>(); // generic
+List.Add(1);
+List.Add("asd");> not allowed
+List.Add(2);
+
+14- What are threads ( Multithreading) ?
+
+Parallel execution code we need thread
+
+		> Method 1
+Paralel 
+		> Method 2
+
+Diffrences between Thread and Task ?
+Task > Parallel processing, utilize all CPU , utilize hardware properly
+Thread just focus on one CPU.
+
+TASK usage is better because we have also return option.
+
+15- WHY Do we need the out keyword ?
+
+Methods just return one value, ýf we would like get and return more value from methods we could use out keyword for arguments of the methods
+
+static int MyMaths ( int num1,  int num2 , out int sum)
+{	
+sum=num1+num2;
+	return num1+num2;
+}
+MyMaths(5,10,out int sum);
+sum could be 15;
+
+
+------------------------SQL-------------------------------
+
+RDBMS >> ORACLE : SQLSERVER : MYSQL : POSTGRESQL : ACCESS ( ANSI SQL, PLSQL(ORACLE), T-SQL(SQLSERVER) ) >> NORMALISATION >> Katý bir iliþkisellik mevcut
+NOSQL (Not only SQL) >> MongoDB, Firebase, >> Katý bir iliþkisellik mevcut deðil >> LOGLAMALARDA
+
+SQL Sorting 
+ID > Relational ID etc.
+ID (PK) > Other names ...
+ID (PK) is unique.2 kolon veya 3 lu kolon þeklinde de PK yapýlabilir.
+Ama genelde tabloda 1 kolon PK olarak kullanýlýr.
+
+ID(PK): CityId(FK) : First Name : Last Name
+	1  :	   1	   :  Engin     : Demir
+	2  :	   2	   :  Kerem     : Nur
+	3  :	   2       :  Merve     : Cetindag
+	4  :       1       :  Kerem     : Demiralay
+
+Her tabloda ID ve PK olmalý
+
+Primary Key > 
+Unique Key > 
+Foreign Key > Baþka bir tablonun anahtarý, mevcut tablo ile iliþkili

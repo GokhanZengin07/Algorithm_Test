@@ -22,3 +22,26 @@ no assumption - O(n) time
 
 ---Binear Search / Divide and Conquer---
 sorted assumption - O(log(n)) time
+
+
+Hash-based structures are great when working with collections,sets, and data formatted sa key-value pairs.
+HashSet > Collection of unique items // unordered collection
+
+-----Dictionary-----
+Generic collection
+Type safety
+Invalid key results in error
+Thread safe only for puclic static members
+
+-----Hashtable-----
+Nongeneric
+No type safety
+Invalid key results in null 
+Thread safe
+
+
+----Abstraction----
+Show only whats necessary.
+
+----Encapsulation----
+Hide complexity
