@@ -81,6 +81,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameProject", "..\GameProject\GameProject.csproj", "{1165477D-1D37-4EC5-B8F1-2424EB5536C4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyFinalProject", "MyFinalProject", "{E4E04018-DD21-4777-AD5B-EDA2482A4180}"
+	ProjectSection(SolutionItems) = preProject
+		Info.txt = Info.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{1B8488EC-EF1F-49FE-B9B7-54BE05A81600}"
 EndProject

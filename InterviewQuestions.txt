@@ -140,3 +140,19 @@ Her tabloda ID ve PK olmalý
 Primary Key > 
 Unique Key > 
 Foreign Key > Baþka bir tablonun anahtarý, mevcut tablo ile iliþkili
+
+
+
+-----MVC Project-----
+
+DB > DataBase
+
+Data Access > (SQL)
+Business > ()
+Service // API (Restful>json)
+UI (ASP.NET,WPF,WEB FORM)
+
+
+SOLID
+
+Pnp > Plug and Play
