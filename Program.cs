@@ -74,7 +74,7 @@ namespace Algorithm_Test
 
            
         {
-            Console.WriteLine(reve);
+            Console.WriteLine("reve");
             Console.WriteLine(Reverse2("asd"));
             Console.WriteLine(Reverse("asd"));
             Console.WriteLine(IsAtEvenIndex("HelLo",'l'));
