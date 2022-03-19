@@ -1,0 +1,41 @@
+1- Categorized variable types ? 
+
+Value type 
+Reference type
+
+Value types of variables directly contain value.
+Reference type of variables directly allocated memoery address of value where the value is stored actually in the memory.
+
+For example bool, byte, int, char, and decimal are value type
+
+And String, class, delegates are examples of reference types.
+
+
+2- What are namespaces, and is that compulsory?
+A namespace is a way of organizing classes of the same group or functionality under the same name. 
+We can call it a module. Although it is not compulsory to put class in a namespace.
+
+
+3-What is dependency injection, and how can it be achieved?
+Dependency injection is a design pattern. Here, instead of creating an object of a class in another class (dependent class) directly, we are passing the object as an argument in the constructor of the dependent class. It helps to write loosely coupled code and helps to make the code more modular and easy to test.
+
+There are 3 ways to achieve dependency injection.
+
+Constructor Injection: This is the most commonly used Injection type. In constructor injection, we can pass the dependency into the constructor. 
+We have to make sure that we do not have a default constructor here, and the only one should be a parameterized constructor.
+
+Property Injection: There are cases when we need the default constructor of a class, so in that case, we can use property injection.
+Method Injection: In method injection, we need to pass the dependency in the method only. When the entire class does not require that dependency, there is no need to implement constructor injection. 
+
+When we have a dependency on multiple objects, then instead of passing that dependency in the constructor, we pass that dependency in the function itself where it is required.
+
+
+4-What are the access modifiers? Explain each type.
+Access modifiers are keywords used to provide accessibility to a class, member, or a function.
+
+Below are its types
+
+Public: Can be accessed anywhere without any restriction
+Protected: Access is limited up to the class, which inherits this class.
+Internal: Can be accessed only within the current assembly.
+Private: Cannot be accessed outside.
