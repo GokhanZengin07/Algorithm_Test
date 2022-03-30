@@ -39,3 +39,5 @@ Public: Can be accessed anywhere without any restriction
 Protected: Access is limited up to the class, which inherits this class.
 Internal: Can be accessed only within the current assembly.
 Private: Cannot be accessed outside.
+
+5-Why do we need OOP ? 
